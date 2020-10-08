@@ -2,12 +2,27 @@
 #FONTS
 \*------------------------------------*/
 
+@font-face {
+  font-family: 'Inter Web';
+  font-weight: 400;
+  src: url('../fonts/Inter-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter Web';
+  font-weight: 600;
+  src: url('../fonts/Inter-SemiBold.woff2') format('woff2');
+}
+
 /*------------------------------------*\
 #Variables
 \*------------------------------------*/
 
 :root {
-
+    --global-color: #20223a;
+    --global-color-background: #F5F6FA;
+    --global-color-selection: #3385FF;
+    --global-color-link: #3385FF;
 }
 
 /* CSS variables here */
@@ -25,12 +40,12 @@
 html {
     font-size: 16px;
     line-height: 1.5;
-    font-family: Helvetica, arial, sans-serif;
-    color: grey;
+    font-family: 'Inter web', Helvetica, arial, sans-serif;
+    color: var(--global-color);
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: white;
+    background-color: var(--global-color-background);
 }
 
 *,
