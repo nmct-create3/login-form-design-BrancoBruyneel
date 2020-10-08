@@ -573,7 +573,14 @@ input {
 */
 
 .c-label {
+  font-size: 14px;
+  color: #4b4c60;
+  padding-bottom: 8px;
+}
 
+.c-label--option {
+  padding-bottom: 0;
+  padding: 8px;
 }
 
 /* If a input is focused within the form-field class change te color of the label */
